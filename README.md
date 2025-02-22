@@ -22,20 +22,18 @@ This project implements image steganography using Python and OpenCV, where a sec
 Run the following command to install dependencies:  
 ```sh
 pip install opencv-python numpy
-Usage
-1. Run the script
 
-2. Encoding
+# Usage
+1.Run the script:
+2.Encoding:
 Select an image
 Enter a secret message
 Save the encoded image
-3. Decoding
+3.Decoding:
 Load the encoded image
 Extract and display the hidden message
-Project Structure
-nginx
-Copy
-Edit
+
+# Project Structure
 steganography_project  
 │── steno_code.py          # Main script  
 │── sample_image.png       # Test image  
